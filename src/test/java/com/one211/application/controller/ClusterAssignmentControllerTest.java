@@ -40,7 +40,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 public class ClusterAssignmentControllerTest {
 
     @Container
-    static PostgreSQLContainer<?> postgres = new PostgreSQLContainer<>("postgres:17");
+    static PostgreSQLContainer<?> postgres = new PostgreSQLContainer<>("postgres:17.5");
 
     @DynamicPropertySource
     static void configurePostgresProperties(DynamicPropertyRegistry registry) {

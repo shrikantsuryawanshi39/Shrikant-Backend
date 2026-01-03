@@ -43,6 +43,8 @@ public class ClusterControllerTest {
         registry.add("spring.datasource.password", postgres::getPassword);
     }
 
+
+
     @Autowired
     private MockMvc mockMvc;
 
